@@ -124,7 +124,7 @@ struct GreenScreen: View {
         }
         .navigationTitle("Green screen")
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(.green)
+        .background(Color.green)
     }
 }
 
@@ -156,7 +156,7 @@ struct YellowScreen: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             .navigationTitle("Yellow Screen")
-            .background(.yellow)
+            .background(Color.yellow)
     }
 }
 
@@ -190,6 +190,6 @@ struct GrayScreen: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             .navigationTitle("Gray screen")
-            .background(.gray)
+            .background(Color.gray)
     }
 }
